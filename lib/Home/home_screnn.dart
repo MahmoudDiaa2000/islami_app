@@ -5,6 +5,11 @@ class HomeScrenn extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Text(
+        'hello',
+        style: TextStyle(fontSize: 50, fontWeight: FontWeight.w300),
+      ),
+    );
   }
 }
